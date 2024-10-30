@@ -1,0 +1,133 @@
+
+.user-picker-input-wrapper {
+	position: relative;
+}
+
+.user-picker-input {
+	width: 320px;
+}
+
+.user-picker-list {
+	position: absolute;
+	left: 0px;
+	top: 28px;
+	width: 320px;
+	background-color: #fff;
+	z-index: 10;
+	border: 1px solid silver;
+}
+
+.user-picker-list:last-child {
+	border-bottom: 0px;
+}
+
+.user-picker-item {
+	cursor: pointer;
+	min-height: 25px;
+	padding-top: 6px;
+	padding-left: 6px;
+	border-bottom: 1px solid silver;
+}
+
+.user-picker-item:hover {
+	background-color: #eee;
+}
+
+.user-picker-item-highlighted {
+	background-color: #0073AA;
+	color: #fff;
+}
+
+.user-list {
+	margin-top: 16px;
+	position: relative;
+}
+
+.user-list .empty-data {
+	text-align: center;
+	width: 100%;
+	height: 46px;
+	border: 1px solid #eff;
+	background-color: #eee;
+	padding-top: 26px;
+}
+
+.user-list-table {
+	width: 100%;
+}
+
+.user-list-table td, .user-list-table th {
+	padding: 6px;
+}
+
+.user-list-table thead .name-cell {
+	background-color: #eee;
+	text-align: left;
+	width: 50%;
+}
+
+.user-list-table thead .email-cell {
+	background-color: #eee;
+	text-align: left;
+	width: 45%;
+}
+
+.user-list-table thead .action-cell {
+	background-color: #eee;
+	text-align: left;
+	width: 5%;
+}
+
+.user-list-table tbody {
+	width: 100%;
+}
+
+.user-list-table tbody td {
+	border-bottom: 1px dashed silver;
+}
+
+.user-list-table tbody .name-cell {
+	width: 50%;
+}
+
+.user-list-table tbody .email-cell {
+	width: 45%;
+}
+
+.user-list-table tbody .action-cell {
+	text-align: center;
+	color: #f44e42;
+	width: 5%;
+}
+
+.user-list-table tbody .action-cell span {
+	cursor: pointer;
+}
+
+.user-list-loader-element {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 0.5;
+}
+
+.page-picker-item {
+	cursor: pointer;
+	min-height: 25px;
+	padding-top: 6px;
+	padding-left: 6px;
+	border-bottom: 1px solid silver;
+}
+
+.page-picker-item:hover {
+	background-color: #eee;
+}
+
+.page-picker-item-highlighted {
+	background-color: #0073AA;
+	color: #fff;
+}
+

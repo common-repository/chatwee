@@ -1,0 +1,148 @@
+
+.chatwee-logo {
+	background-image: url("../images/wp-plugin-logo128x40.png");
+	width: 127.97px;
+	height: 39.13px;
+	display: inline-block;
+	margin: 6px 0 0 0;
+}
+
+.chatwee-content-box {
+    min-width: 255px;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+}
+
+.chatwee-main-box {
+	box-sizing: border-box;
+	padding: 25px;
+	width: 100%;
+	float: left;
+	margin: 0 0 0 0;
+	min-height: 600px;
+}
+
+.chatwee-side-box {
+	box-sizing: border-box;
+	padding: 25px;
+	width: 50%;
+	float: right;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	min-height: 310px;
+}
+
+.chatwee-side-box a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.chatwee-side-box img {
+	max-width: 100%;
+	margin: 0px auto;
+}
+
+.chatwee-options-section {
+	display: none;
+	margin-bottom: 20px;
+	border: 1px solid silver;
+	border-top: 0px;
+	padding: 0px;
+}
+
+.chatwee-options-section-content {
+	padding: 10px 20px;
+}
+
+.chatwee-options-table textarea {
+	width: 100%;
+	height: 120px;
+}
+
+.chatwee-options-table select {
+	width: 320px;
+}
+
+.chatwee-options-table input[type=text] {
+	width: 320px;
+}
+
+.chatwee-option-wrapper {
+	margin-bottom: 14px;
+}
+
+.chatwee-option-info {
+	background: url("http://chatwee.com/public/images/infoIcon.png") no-repeat left top;
+	font-size: 13px;
+	color: #555;
+	margin-right: 20px;
+	padding-left: 20px;
+	margin-top: 5px;
+	line-height: 14px;
+	opacity: 0.7;
+
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	-ms-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.chatwee-option-info:hover {
+	opacity: 1;
+
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	-ms-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.chatwee-log-table {
+	width: 100%;
+}
+
+.chatwee-log-table td, .chatwee-log-table th {
+	padding: 6px;
+}
+
+.chatwee-log-table thead .time-cell {
+	background-color: #eee;
+	text-align: left;
+	width: 15%;
+}
+
+.chatwee-log-table thead .message-cell {
+	background-color: #eee;
+	text-align: left;
+	width: 85%;
+}
+
+.chatwee-log-table tbody {
+	width: 100%;
+}
+
+.chatwee-log-table tbody td {
+	border-bottom: 1px dashed silver;
+}
+
+.chatwee-log-table tbody .time-cell {
+	width: 15%;
+}
+
+.chatwee-log-table tbody .message-cell {
+	width: 85%;
+	word-break: break-all;
+}
+
+.empty-log-box {
+	text-align: center;
+	width: 100%;
+	height: 46px;
+	border: 1px solid #eff;
+	background-color: #eee;
+	padding-top: 26px;
+}
